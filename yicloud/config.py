@@ -14,3 +14,8 @@ class DefaultConfig(object):
     #Flask-cache: http://pythonhosted.org/Flask-Cache/
     CACHE_TYPE = 'simple'
     CACHE_DEFAULT_TIMEOUT = 60
+    
+    #VM config
+    hostUri = 'qemu+ssh://tanyang@localhost/system'
+    XMLPath = '/home/tanyang/yicloud/virtscripts/yivm1.xml'
+    XMLOutput = '/home/tanyang/yicloud/virtscripts'
